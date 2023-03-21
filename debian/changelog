@@ -1,8 +1,12 @@
-libfuture-io-perl (0.11-3+u001) UNRELEASED; urgency=medium
+libfuture-io-perl (0.11-3deepin) unstable; urgency=medium
 
+  [ Debian Perl Group ]
   * update
 
- -- Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>  Fri, 27 May 2022 14:58:54 +0800
+  [ Yutao Meng ]
+  * Regulate version name
+
+ -- Yutao Meng <mengyutao@uniontech.com>  Tue, 21 Mar 2023 11:41:02 +0800
 
 libfuture-io-perl (0.11-3) unstable; urgency=medium
 
