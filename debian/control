@@ -8,10 +8,12 @@ Build-Depends: debhelper-compat (= 13),
                libmodule-build-perl,
                perl
 Build-Depends-Indep: libfuture-perl <!nocheck>,
+                     libio-async-perl <!nocheck>,
                      libstruct-dumb-perl <!nocheck>,
-                     libtest-identity-perl <!nocheck>,
-                     libtest-simple-perl <!nocheck>
-Standards-Version: 4.6.0
+                     libtest2-suite-perl <!nocheck>,
+                     libtest-expectandcheck-perl <!nocheck>,
+                     libtest-future-io-impl-perl <!nocheck>
+Standards-Version: 4.6.2
 Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libfuture-io-perl
 Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libfuture-io-perl.git
 Homepage: https://metacpan.org/release/Future-IO
@@ -23,6 +25,7 @@ Depends: ${misc:Depends},
          ${perl:Depends},
          libfuture-perl,
          libstruct-dumb-perl
+Multi-Arch: foreign
 Description: collection of Future-returning IO methods
  The Future::IO distribution provides a few basic methods that behave
  similarly to the same-named core perl functions relating to IO operations,
