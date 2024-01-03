@@ -1,13 +1,12 @@
 #!/usr/bin/perl
 
-use strict;
+use v5.14;
 use warnings;
 
-use Test::More;
+use Test2::V0;
 
-use_ok( "Future::IO" );
-use_ok( "Future::IO::ImplBase" );
+require Future::IO;
+require Future::IO::ImplBase;
 
-use_ok( "Test::Future::IO::Impl" );
-
+pass "Modules loaded";
 done_testing;
