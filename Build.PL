@@ -1,3 +1,4 @@
+use v5;
 use strict;
 use warnings;
 
@@ -10,11 +11,12 @@ my $build = Module::Build->new(
       'Struct::Dumb' => 0,
       'Time::HiRes' => 0,
 
-      'perl' => '5.010', # //
+      'perl' => '5.014',
    },
    test_requires => {
-      'Test::Identity' => 0,
-      'Test::More' => '0.88', # done_testing
+      'Test::ExpectAndCheck' => '0.06',
+      'Test::Future::IO::Impl' => 0,
+      'Test2::V0' => 0,
    },
    configure_requires => {
       'Module::Build' => '0.4004', # test_requires
