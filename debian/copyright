@@ -4,7 +4,7 @@ Upstream-Contact: Paul Evans <leonerd@leonerd.org.uk>
 Upstream-Name: Future-IO
 
 Files: *
-Copyright: 2019-2023, Paul Evans <leonerd@leonerd.org.uk>
+Copyright: 2019-2024, Paul Evans <leonerd@leonerd.org.uk>
 License: Artistic or GPL-1+
 
 Files: debian/*
