@@ -1,0 +1,17 @@
+Description: fix typo caught by lintian in resulting manual page.
+Author: Étienne Mollier <emollier@debian.org>
+Forwarded: no
+Last-Update: 2024-09-21
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
+--- libfuture-io-perl.orig/lib/Future/IO/ImplBase.pm
++++ libfuture-io-perl/lib/Future/IO/ImplBase.pm
+@@ -53,7 +53,7 @@
+ 
+ =head1 DEFAULT METHODS
+ 
+-These methods are provided based on lower-level functionallity that the
++These methods are provided based on lower-level functionality that the
+ implementing class should provide.
+ 
+ =cut

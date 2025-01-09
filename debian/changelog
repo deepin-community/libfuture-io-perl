@@ -1,3 +1,13 @@
+libfuture-io-perl (0.16-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 0.16.
+  * d/copyright: update upstream copyright year.
+  * Declare compliance with Debian Policy 4.7.0.
+  * typo.patch: new: fix typo caught by lintian.
+
+ -- Étienne Mollier <emollier@debian.org>  Sat, 21 Sep 2024 21:18:10 +0200
+
 libfuture-io-perl (0.15-1) unstable; urgency=medium
 
   * Import upstream version 0.15.
